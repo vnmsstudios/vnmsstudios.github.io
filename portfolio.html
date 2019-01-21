@@ -9,18 +9,32 @@
 </head>
 <body style="background-color: #231f20;">
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <a class="navbar-brand" href="portfolio.html">
+  <a class="navbar-brand" href="index.html">
     <img src="images/VNMSLogo_512.png" width="30" height="30" class="d-inline-block align-top" alt="">
     VNMS Studios
   </a>
-
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+    
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="games.html">Games</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+          </li>
+      </ul>
   </div>
 </nav>
     <div class="container">
-        <h1 class="display-1 row" style="color: white;">Nihon: GO!</h1>
+        <h1 class="display-1 row" style="color: white;">Portfolio</h1>
         <div class="jumbotron row">
-            <div id="carousel" class="carousel slide col-sm-4" data-ride="carousel">
+            <div id="carousel" class="carousel slide col-md-6 col-lg-4" data-ride="carousel">
                 <ol class="carousel-indicators">
                     <li data-target="#carousel" data-slide-to="0" class="active"></li>
                     <li data-target="#carousel" data-slide-to="1"></li>
@@ -50,7 +64,10 @@
                     <span class="sr-only">Next</span>
                 </a>
             </div>
-            <div class="col-sm-8">
+            <div class="col-lg-8">
+                <div id="title">
+                    <h1>Nihon: GO!</h1>                   
+                </div>
                 <div id="aboutNihonGo">
                     <h2>Description:</h2>
                     <p>
@@ -63,10 +80,10 @@
                     </p>
                 </div>
                 <div id="download" class="row">
-                    <h3 class="col-sm-3">Download:</h3>
-                    <a href="projects/NihonGo/Android_NihonGo_20190109.apk.zip"><h3 class="col-sm-1">Android</h3></a>
-                    <a href="projects/NihonGo/Windows_NihonGo.zip"><h3 class="col-sm-1">Windows</h3></a>
-                    <a href="projects/NihonGo/NihonGO.app.zip"><h3 class="col-sm-1">Mac</h3></a>
+                    <h3 class="col-md-3 col-lg-3">Download:</h3>
+                    <a href="projects/NihonGo/NihonGO_Android.zip"><h3 class="col-md-2 col-lg-1">Android</h3></a>
+                    <a href="projects/NihonGo/NihonGO_Windows.zip"><h3 class="col-md-2 col-lg-1">Windows</h3></a>
+                    <a href="projects/NihonGo/NihonGO_Mac.zip"><h3 class="col-md-2 col-lg-1">Mac</h3></a>
                 </div>
             </div>
         </div>
